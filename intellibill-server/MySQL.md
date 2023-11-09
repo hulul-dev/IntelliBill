@@ -1,7 +1,7 @@
 # BASIC CREATE PROCEDUCE For login
 
 DELIMITER //
-CREATE PROCEDURE `UserLogin_AP`(
+CREATE PROCEDURE `UserLogin_API`(
     IN `input_username` VARCHAR(255)
 )
 BEGIN

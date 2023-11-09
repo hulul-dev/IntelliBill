@@ -4,8 +4,8 @@ import { withRouter } from "react-router-dom";
 
 
 const Login = (props) => {
-  const [userName, setUserName] = useState('admin')
-  const [password, setPassword] = useState('admin')
+  const [userName, setUserName] = useState('')
+  const [password, setPassword] = useState('')
   
   const LoginFunction = (loginType, type) => {
     if (!userName || !password) {
